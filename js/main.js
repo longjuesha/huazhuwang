@@ -174,7 +174,6 @@ $(document).ready(function(){
 	var num=$('.imgNum a').length;
 	var i_num=0;
 	var timer_banner=null;
-   	
 	
 	
 	/*商品分类*/

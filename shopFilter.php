@@ -5,8 +5,11 @@ error_reporting(E_ALL || ~E_NOTICE);
 <!doctype html>
 <html>
 <head>
-<meta  http-equiv="content-type" charset="utf-8">
+<meta charset="utf-8">
 <title>筛选页</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="keywords" content="华柱网，华柱，购物，数码，家电，电商网站">
+<meta name="description" content="华柱网是一个由华柱开发的电商网站，主营家电和数码">
 <link type="text/css" rel="stylesheet" href="style/reset.css">
 <link type="text/css" rel="stylesheet" href="style/main.css">
 <!--[if IE 6]>
@@ -546,6 +549,16 @@ error_reporting(E_ALL || ~E_NOTICE);
 	<p><a href="#">华柱简介</a><i>|</i><a href="#">华柱公告</a><i>|</i> <a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：18025186558</p>
 	<p>Copyright &copy; 2006 - 2016 华柱版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
 	<p class="web"><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a></p>
+</div>
+<div id="logoBarS">
+    <div class="comWidth">
+      <div class="logo fl"> <a href="index.php"><img src="images/logo.jpg" alt="慕课网"></a> </div>
+      <div class="search_box fl">
+        <input type="text" class="search_text fl">
+        <input type="button" value="搜 索" class="search_btn fr">
+      </div>
+      <div class="shopCar fr"> <span class="shopText fl">购物车</span> <span class="shopNum fl">0<span class="shopNum_icon"></span><span class="shopNum_active hide">购物车为空</span></span></div>
+    </div>
 </div>
 <div class="toolbar">
  <a href="#" class="toolbar_item toolbar_item_feedback"></a>

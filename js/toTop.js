@@ -1,6 +1,8 @@
+
 window.onload=function(){
 	var toTop=document.getElementById("toTop");
-	var clientHeight=document.documentElement.clientHeight;
+	var clientHeight=document.documentElement.clientHeight || document.body.clientHeight;
+	var logobar=document.getElementById("logoBarS");
 	var timer=null;
 	var isTop=true;
 	window.onscroll=function(){
@@ -12,6 +14,12 @@ window.onload=function(){
 			}else{
 			toTop.style.display="none";	
 				}
+		if(osTop>31){
+			logobar.style.display="block";
+			
+			}else{
+			logobar.style.display="none";	
+				}		
 		if(!isTop){
 			clearInterval(timer);
 			}

@@ -42,17 +42,17 @@
 		<div class="login_partners">
 			<p class="l_tit">使用合作方账号登陆网站</p>
 			<ul class="login_list clearfix">
-				<li><a href="#">QQ</a></li>
+				<li><a href="#" rel="nofollow">QQ</a></li>
 				<li><span>|</span></li>
-				<li><a href="#">网易</a></li>
+				<li><a href="#" rel="nofollow">网易</a></li>
 				<li><span>|</span></li>
-				<li><a href="#">新浪微博</a></li>
+				<li><a href="#" rel="nofollow">新浪微博</a></li>
 				<li><span>|</span></li>
-				<li><a href="#">腾讯微博</a></li>
+				<li><a href="#" rel="nofollow">腾讯微博</a></li>
 				<li><span>|</span></li>
-				<li><a href="#">人人网</a></li>
+				<li><a href="#" rel="nofollow">人人网</a></li>
 				<li><span>|</span></li>
-				<li><a href="#">百度贴吧</a></li>
+				<li><a href="#" rel="nofollow">百度贴吧</a></li>
 			</ul>
 		</div>
 	</div>

@@ -5,8 +5,11 @@ error_reporting(E_ALL || ~E_NOTICE);
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="content-type" charset="utf-8">
-<title>首页</title>
+<meta charset="utf-8">
+<title>华柱网首页</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="keywords" content="华柱网，华柱，购物，数码，家电，电商网站">
+<meta name="description" content="华柱网是一个由华柱开发的电商网站，主营家电和数码">
 <link type="text/css" rel="stylesheet" href="style/reset.css">
 <link type="text/css" rel="stylesheet" href="style/main.css">
 <!--[if IE 6]>
@@ -16,16 +19,18 @@ error_reporting(E_ALL || ~E_NOTICE);
 <!--[if lt IE 9]>
 <script type="text/javascript" src="js/PIE.js"></script>
 <![endif]-->
+<script type="text/javascript" src="js/isPC.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/toTop.js"></script>
+
 </head>
 
 <body>
 <div class="headerBar">  
   <div class="topBar">
     <div class="comWidth">
-      <div class="leftArea"> <a href="#" class="collection">收藏网站</a> </div>
+      <div class="leftArea"> <a class="collection" href="#">收藏网站</a> </div>
       <div class="rightArea"><a href="#"><?php echo $_SESSION["username"];?></a> 欢迎您,来到华柱网！<a href="denglu.php" <?php if($_SESSION["username"]){ echo "style='display:none'";} ?> >[登录]</a><a href="zhuce.php" <?php if($_SESSION["username"]){ echo "style='display:none'";} ?>>[免费注册]</a><a href="#" <?php if($_SESSION["username"]){ echo "style='display:inline'";}else{ echo "style='display:none'";}?> id="leave">[退出]</a> </div>
     </div>
   </div>
@@ -231,50 +236,50 @@ error_reporting(E_ALL || ~E_NOTICE);
   <div class="rightArea">
     <div class="shopList_top clearfix">
       <div class="shop_item">
-        <div class="shop_img"> <a href="#"><img src="images/shopImg.jpg" alt=""></a> </div>
-        <h3>HTC新渴望8系列</h3>
-        <p>1899元</p>
+        <div class="shop_img"> <a href="#"><img src="images/shopImg2.jpg" alt=""></a> </div>
+        <h3>极限矩阵X8-H7</h3>
+        <p>9499元</p>
       </div>
       <div class="shop_item">
-        <div class="shop_img"> <a href="#"><img src="images/shopImg.jpg" alt=""></a> </div>
-        <h3>HTC新渴望8系列</h3>
-        <p>1899元</p>
+        <div class="shop_img"> <a href="#"><img src="images/shopImg2.jpg" alt=""></a> </div>
+        <h3>极限矩阵X8-H7</h3>
+        <p>9499元</p>
       </div>
       <div class="shop_item">
-        <div class="shop_img"> <a href="#"><img src="images/shopImg.jpg" alt=""></a> </div>
-        <h3>HTC新渴望8系列</h3>
-        <p>1899元</p>
+        <div class="shop_img"> <a href="#"><img src="images/shopImg2.jpg" alt=""></a> </div>
+        <h3>极限矩阵X8-H7</h3>
+        <p>9499元</p>
       </div>
       <div class="shop_item">
-        <div class="shop_img"> <a href="#"><img src="images/shopImg.jpg" alt=""></a> </div>
-        <h3>HTC新渴望8系列</h3>
-        <p>1899元</p>
+        <div class="shop_img"> <a href="#"><img src="images/shopImg2.jpg" alt=""></a> </div>
+        <h3>极限矩阵X8-H7</h3>
+        <p>9499元</p>
       </div>
     </div>
     <div class="shopList_sm clearfix">
       <div class="shopItem_sm">
-        <div class="shopItem_smImg"> <a href="#"><img src="images/shopImg.jpg" alt=""></a> </div>
+        <div class="shopItem_smImg"> <a href="#"><img src="images/shopImg2.jpg" alt=""></a> </div>
         <div class="shopItem_text">
           <p>NFC技术一碰轻松配对！接触屏幕</p>
           <h3>￥149.00 </h3>
         </div>
       </div>
       <div class="shopItem_sm">
-        <div class="shopItem_smImg"> <a href="#"><img src="images/shopImg.jpg" alt=""></a> </div>
+        <div class="shopItem_smImg"> <a href="#"><img src="images/shopImg2.jpg" alt=""></a> </div>
         <div class="shopItem_text">
           <p>NFC技术一碰轻松配对！接触屏幕</p>
           <h3>￥149.00 </h3>
         </div>
       </div>
       <div class="shopItem_sm">
-        <div class="shopItem_smImg"> <a href="#"><img src="images/shopImg.jpg" alt=""></a> </div>
+        <div class="shopItem_smImg"> <a href="#"><img src="images/shopImg2.jpg" alt=""></a> </div>
         <div class="shopItem_text">
           <p>NFC技术一碰轻松配对！接触屏幕</p>
           <h3>￥149.00 </h3>
         </div>
       </div>
       <div class="shopItem_sm">
-        <div class="shopItem_smImg"> <a href="#"><img src="images/shopImg.jpg" alt=""></a> </div>
+        <div class="shopItem_smImg"> <a href="#"><img src="images/shopImg2.jpg" alt=""></a> </div>
         <div class="shopItem_text">
           <p>NFC技术一碰轻松配对！接触屏幕</p>
           <h3>￥149.00 </h3>
@@ -284,7 +289,7 @@ error_reporting(E_ALL || ~E_NOTICE);
   </div>
 </div>
 <div class="shopTit comWidth"> <span class="icon"></span>
-  <h3>家用电脑</h3>
+  <h3>手机</h3>
   <a href="#" class="more">更多&gt;&gt;</a> </div>
 <div class="shopList comWidth clearfix">
   <div class="leftArea">
@@ -356,6 +361,16 @@ error_reporting(E_ALL || ~E_NOTICE);
   <p><a href="#">网站简介</a><i>|</i><a href="#">华柱公告</a><i>|</i> <a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：18025186558</p>
   <p>Copyright &copy; 2006 - 2016 华柱版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
   <p class="web"><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a></p>
+</div>
+<div id="logoBarS">
+    <div class="comWidth">
+      <div class="logo fl"> <a href="index.php"><img src="images/logo.jpg" alt="慕课网"></a> </div>
+      <div class="search_box fl">
+        <input type="text" class="search_text fl">
+        <input type="button" value="搜 索" class="search_btn fr">
+      </div>
+      <div class="shopCar fr"> <span class="shopText fl">购物车</span> <span class="shopNum fl">0<span class="shopNum_icon"></span><span class="shopNum_active hide">购物车为空</span></span></div>
+    </div>
 </div>
 <div class="toolbar">
  <a href="#" class="toolbar_item toolbar_item_feedback"></a>
